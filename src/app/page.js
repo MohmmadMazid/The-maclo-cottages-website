@@ -1,8 +1,15 @@
-import React from 'react'
+import Navigation from '@/components/Navigation'
+import Link from 'next/link'
 
 const page = () => {
   return (
-    <div>my page page</div>
+    <div>
+      <Navigation />
+      <h1>Welcome To The Maclo Cottages Hotel-Cottages in Woodland</h1>
+      {/* <Link href={"/about"}>About</Link>
+      <br/>
+      <Link href={"/account"}>Account</Link> */}
+    </div>
   )
 }
 
