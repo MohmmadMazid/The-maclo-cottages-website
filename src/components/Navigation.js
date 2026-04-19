@@ -1,27 +1,31 @@
-import Link from "next/link"
+import Link from "next/link";
 
-const Navigation = () => {
+export default function Navigation() {
   return (
-    <div>
-        <ul>
-            <li>
-                <Link href="/">Home</Link>
-            </li>
-            
-            <li>
-                <Link href="/cottages">Cottages</Link>
-            </li>
-            <li>
-                <Link href="/about">About</Link>
-            </li>
-            
-            <li>
-                <Link href="/account">Account</Link>
-            </li>
-            
-        </ul>
-    </div>
-  )
+    <nav className="z-10 text-xl">
+      <ul className="flex flex-row gap-16 items-center">
+        <li>
+          <Link
+            href="/cottages"
+            className="hover:text-accent-400 transition-colors"
+          >
+            Cottages
+          </Link>
+        </li>
+        <li>
+          <Link href="/about" className="hover:text-accent-400 transition-colors">
+            About
+          </Link>
+        </li>
+        <li>
+          <Link
+            href="/account"
+            className="hover:text-accent-400 transition-colors"
+          >
+            Guest area
+          </Link>
+        </li>
+      </ul>
+    </nav>
+  );
 }
-
-export default Navigation
