@@ -5,7 +5,7 @@ const Navigation = () => {
     <div>
         <ul>
             <li>
-                <Link href="/home">Home</Link>
+                <Link href="/">Home</Link>
             </li>
             
             <li>

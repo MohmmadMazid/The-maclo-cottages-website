@@ -1,10 +1,9 @@
-import Navigation from '@/components/Navigation'
-import React from 'react'
-
+export const metadata = {
+  title: "Cottages",
+};
 const Cottages = () => {
   return (
     <div>
-        <Navigation/>
         <h2>About The Maclo Cottages</h2>
     </div>
   )
