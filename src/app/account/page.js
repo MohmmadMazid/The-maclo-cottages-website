@@ -5,7 +5,7 @@ const Account = () => {
    
   return (
     <div>
-        <h1>Your Account Details</h1>
+        <h1 className="text-3xl text-accent-600">Welcome Mazid</h1>
     </div>
   )
 }
